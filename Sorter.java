@@ -29,6 +29,11 @@ public class Sorter {
 public void sort(String arr[]){
     selectionsort(arr);
 }
+public void sort(int ar[]){
+    insetrionSort(ar);
+}
+
+
 public void insetrionSort(int arr[])
     {
         int n = arr.length;
